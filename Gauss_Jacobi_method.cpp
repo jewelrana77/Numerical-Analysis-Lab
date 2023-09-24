@@ -28,6 +28,6 @@ do{
   z0 = z1;
  }while(e1>e && e2>e && e3>e);
 
- printf("\nSolution: x=%0.3f, y=%0.3f and z = %0.3f\n",x1,y1,z1);
+ cout<<"x1:"<<x1<<" "<<"y1:"<<y1<<" "<<"z1:"<<z1<<"\n";
 return 0;
 }
