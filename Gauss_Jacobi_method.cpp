@@ -18,8 +18,16 @@ do{
  x1=f1(x0,y0,z0);
  y1=f2(x0,y0,z0);
  z1=f3(x0,y0,z0);
-}
-while(e1>e and e2>e and e3>e);
-printf("\nSolution: x=%0.3f, y=%0.3f and z = %0.3f\n",x1,y1,z1);
+
+ e1=fabs(x0-x1);
+ e2=fabs(y0-y1);
+ e3=fabs(z0-z1);
+ i++;
+   x0 = x1;
+  y0 = y1;
+  z0 = z1;
+ }while(e1>e && e2>e && e3>e);
+
+ printf("\nSolution: x=%0.3f, y=%0.3f and z = %0.3f\n",x1,y1,z1);
 return 0;
 }
