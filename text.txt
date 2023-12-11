@@ -1,0 +1,11 @@
+1.Bisection method
+2.Newton raphson method
+3.Regular falsi method
+4.Jacobi iteration method
+5.Gauss seidal method
+6.Interpolation method(forward and backward)
+7.Trapezoidal rule
+8.Simpson 1/3 rule
+9.Simpson 3/8 rule
+10.Runge-kutta method
+11.Straight line fitting
